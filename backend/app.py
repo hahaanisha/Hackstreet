@@ -36,7 +36,6 @@ UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 
-GEMINI_API_KEY = "AIzaSyB4HEK3U8P4QXkoTaYthMS2mZ7pJorei5Y"
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
